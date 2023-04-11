@@ -1,0 +1,12 @@
+{
+  "name": "Blank new tab",
+  "description": "New tab replace to blank",
+  "version": "0.2",
+  "icons": {
+    "16": "icon.png"
+  },
+  "manifest_version": 3,
+  "chrome_url_overrides" : {
+    "newtab": "blank.html"
+  }
+}
